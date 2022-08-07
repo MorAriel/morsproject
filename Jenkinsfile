@@ -18,7 +18,7 @@ pipeline {
                 sh "echo mors project"
 		sh "pwd"   
 		sh "ls"
-                sh "docker build -t mor/$BUILD_NUMBER:v1 app1/"
+                sh "docker build -t morsproject/$BUILD_NUMBER:v1 app1/"
                 }
             }
 
